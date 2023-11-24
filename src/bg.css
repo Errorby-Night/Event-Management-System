@@ -1,0 +1,22 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
+
+        /* Desktop Image */
+@media (min-width: 768px) {
+    body {
+        background-image: url('desktop.jpg');
+    }
+}
+
+        /* Mobile Image */
+@media (max-width: 767px) {
+    body {
+        background-image: url('mobile.jpg');
+    }
+}

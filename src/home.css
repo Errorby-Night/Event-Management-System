@@ -1,0 +1,15 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.row h1 {
+    margin: 5;
+}
+
+.row p {
+    
+    font-size: large; /* Remove default margin for p */
+    
+}
